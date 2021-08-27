@@ -44,7 +44,9 @@
   </developers>
 
   <scm>
+    <connection>scm:git:git@github.com:avaje/maven-pom.git</connection>
     <developerConnection>scm:git:git@github.com:avaje/maven-pom.git</developerConnection>
+    <url>git@github.com:avaje/maven-pom.git</url>
     <tag>HEAD</tag>
   </scm>
 
