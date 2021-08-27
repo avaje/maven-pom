@@ -3,13 +3,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.avaje</groupId>
-  <artifactId>parent-java8</artifactId>
+  <artifactId>java8-parent</artifactId>
   <version>1.0</version>
   <packaging>pom</packaging>
-  <name>parent-java8</name>
+  <name>java8-parent</name>
 
   <description>
-    Packaging parent for Avaje OSS projects.
+    Parent for avaje java8 open source projects.
   </description>
 
   <properties>
@@ -44,9 +44,7 @@
   </developers>
 
   <scm>
-    <connection>scm:git:git@github.com:avaje/maven-pom.git</connection>
     <developerConnection>scm:git:git@github.com:avaje/maven-pom.git</developerConnection>
-    <url>git@github.com:avaje/maven-pom.git</url>
     <tag>HEAD</tag>
   </scm>
 

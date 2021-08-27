@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>io.avaje</groupId>
+    <artifactId>java8-parent</artifactId>
+    <version>1.0</version>
+  </parent>
 
-  <groupId>io.avaje</groupId>
   <artifactId>log4j-ecs</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
-
-  <parent>
-    <groupId>io.avaje</groupId>
-    <artifactId>parent-java8</artifactId>
-    <version>1.0</version>
-  </parent>
 
   <scm>
     <developerConnection>scm:git:git@github.com:avaje/maven-pom.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
+
+  <properties>
+    <ecs-layout.version>1.1.0</ecs-layout.version>
+  </properties>
 
   <dependencies>
 
@@ -29,7 +31,7 @@
     <dependency>
       <groupId>co.elastic.logging</groupId>
       <artifactId>log4j2-ecs-layout</artifactId>
-      <version>1.1.0</version>
+      <version>${ecs-layout.version}</version>
     </dependency>
 
   </dependencies>
