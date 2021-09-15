@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+
+  <properties>
+    <moditect-maven-plugin.version>1.0.0.RC1</moditect-maven-plugin.version>
+  </properties>
+
+  <build>
+    <plugins>
+
+      <plugin>
+        <groupId>org.moditect</groupId>
+        <artifactId>moditect-maven-plugin</artifactId>
+        <version>${moditect-maven-plugin.version}</version>
+        <executions>
+          <execution>
+            <id>add-module-infos</id>
+            <phase>package</phase>
+            <goals>
+              <goal>add-module-info</goal>
+            </goals>
+            <configuration>
+              <jvmVersion>9</jvmVersion>
+              <module>
+                <moduleInfoFile>src/main/java9/module-info.java</moduleInfoFile>
+              </module>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+
+    </plugins>
+
+  </build>
+
+</project>
