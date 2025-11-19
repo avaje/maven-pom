@@ -19,10 +19,10 @@
   </scm>
 
   <properties>
-    <junit.version>5.12.2</junit.version>
-    <assertj.version>3.27.3</assertj.version>
-    <mockito.version>5.17.0</mockito.version>
-    <bytebuddy.version>1.17.5</bytebuddy.version>
+    <junit.version>5.14.1</junit.version>
+    <assertj.version>3.27.6</assertj.version>
+    <mockito.version>5.20.0</mockito.version>
+    <bytebuddy.version>1.18.1</bytebuddy.version>
   </properties>
 
   <dependencies>
